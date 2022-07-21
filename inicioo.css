@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*página principal*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: #fffafa;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    
+}
+
+.cabecalho-logo {
+    height: 45px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 1cm;
+}
+
+.cabecalho-menu-botao {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+
+.cabecalho-menu-botao:hover {
+    background-color: rgba(#6A5ACD, #191970, #483D8B,#836FFF);
+}
+/*só serve para botão*/
+
+
+.conteudo {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-top: 0.4px solid #000;
+    
+}
+
+.conteudo-principal-capa {
+    
+    display: block;
+    margin: 0px auto;
+    
+}
+
+.conteudo-secundario {
+    font-family: 'Poppins', sans-serif;
+}
+
+.conteudo-secundario-titulo {
+    font-size: 24px;
+
+    color: #003366;
+
+    text-transform: uppercase;
+    padding-left: 14cm;
+    margin: 15px;
+    
+}
+
+.conteudo-secundario-paragrafo {
+    line-height: 25px;
+   padding-left: 15px;
+}
+
+.conteudo-secundario-lista {
+    line-height: 25px;
+    padding-left: 40px;
+}
+
+.rodape {
+    padding: 30px;
+    border-top: 0.4px solid #000;
+}
+
+.rodape-imagem {
+    display: block;
+    margin: 0 auto;
+   
+}

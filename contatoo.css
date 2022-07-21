@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 1px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  
+    
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    
+}
+
+.cabecalho-logo {
+    height: 45px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 1cm;
+}
+
+
+.cabecalho-menu-botao {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+
+.form-titulo {
+    text-transform: uppercase;
+    padding-left: 8px;
+    margin: 15px;
+
+   
+    
+}
+
+.email {
+   text-transform: uppercase;
+    padding-left: 1;
+    margin: 15px;
+
+ 
+}
+
+.texto-email {
+
+    width: 6cm;
+  height: 0.7cm;
+   
+    
+  
+}
+
+.assunto {
+    text-transform: uppercase;
+    padding-left: 1;
+    margin: 15px;
+
+
+}
+
+.botao:hover {
+    background-color: rgba(#6A5ACD, #191970, #483D8B,#836FFF);
+}
